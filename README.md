@@ -21,5 +21,10 @@ This is a simple QR code encoder/decoder web application built using Flask, Pyth
    ```bash
    git clone [https://github.com/your-username/QR-Encoder-Decoder.git]
 
-2. Install the required libraries: 
+2. Install the required libraries:
+
+   ```bash
+   pip3 install flask qrcode
+
+3. Run the application:   
    
