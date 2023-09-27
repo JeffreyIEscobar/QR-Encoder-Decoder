@@ -8,8 +8,6 @@ This is a simple QR code encoder/decoder web application built using Flask, Pyth
 
 - **qrcode**: qrcode is a Python library for generating QR codes.
 
-- **Pillow (PIL)**: The Python Imaging Library (Pillow) is used for image processing, including saving the generated QR codes.
-
 ## Features
 
 - **Encode**: Enter a URL, and the application will generate a QR code for the URL.
