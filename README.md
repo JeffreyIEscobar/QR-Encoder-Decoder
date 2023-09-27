@@ -33,4 +33,9 @@ This is a simple QR code encoder/decoder web application built using Flask, Pyth
    
 4. Access the application in your web browser at http://localhost:5000.
 
+## Contributing
+
+Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
+
+
 
