@@ -37,5 +37,9 @@ This is a simple QR code encoder/decoder web application built using Flask, Pyth
 
 Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
 
+## License
+
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
