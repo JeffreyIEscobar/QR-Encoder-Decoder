@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h1>QR Code Encoder/Decoder</h1>
+    <form action="/encode" method="POST">
+        <label for="url">Enter a URL:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Encode</button>
+    </form>
+
+    {% if qr_filename %}
+        <h2>QR Code:</h2>
+        <img src="{{ qr_filename }}" alt="QR Code">
+
+        <h2>Decoded Data:</h2>
+        <p>{{ decoded_data }}</p>
+    {% endif %}
+</body>
+</html>
