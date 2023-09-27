@@ -27,4 +27,7 @@ This is a simple QR code encoder/decoder web application built using Flask, Pyth
    pip3 install flask qrcode
 
 3. Run the application:   
+
+   ```bash
+   python3 encoder_decoder.py
    
